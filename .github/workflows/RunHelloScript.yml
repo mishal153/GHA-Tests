@@ -36,4 +36,4 @@ jobs:
           echo test, and deploy your project.
 
       - name: Run powershell
-        run: .\github\scripts\sayhello.ps1
+        run: ./.github/scripts/sayhello.ps1
