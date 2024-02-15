@@ -10,9 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{98788285-87E7-4619-8A1C-F26EE0C1F054}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{4ACC265E-BA72-4508-9BC3-29643E8DF19C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{DA965731-A802-4A4F-B6D4-92878B71D4A8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{E5A738F3-A96A-44B0-9CAF-075DA9C3D66C}"
+	ProjectSection(SolutionItems) = preProject
+		.github\scripts\sayhello.ps1 = .github\scripts\sayhello.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{B461C627-C4DE-40F8-BF3F-C49551CC7983}"
 	ProjectSection(SolutionItems) = preProject
 		.github\workflows\RunHelloScript.yml = .github\workflows\RunHelloScript.yml
 	EndProjectSection
@@ -32,7 +37,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DA965731-A802-4A4F-B6D4-92878B71D4A8} = {98788285-87E7-4619-8A1C-F26EE0C1F054}
+		{E5A738F3-A96A-44B0-9CAF-075DA9C3D66C} = {4ACC265E-BA72-4508-9BC3-29643E8DF19C}
+		{B461C627-C4DE-40F8-BF3F-C49551CC7983} = {4ACC265E-BA72-4508-9BC3-29643E8DF19C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68BDD204-BCAD-4BF3-8BE4-3ECE8DFD1EF9}
