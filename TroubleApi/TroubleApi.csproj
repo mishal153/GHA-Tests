@@ -7,9 +7,9 @@
   </PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\.github\**\*">
-			<Link>.github\%(RecursiveDir)/%(FileName)%(Extension)</Link>
+		<Content Include="..\.github\**">
+			<!--<Link>.github\%(RecursiveDir)/%(FileName)%(Extension)</Link>-->
 			<!--<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>-->
-		</None>
+		</Content>
 	</ItemGroup>
 </Project>
