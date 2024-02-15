@@ -10,6 +10,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{98788285-87E7-4619-8A1C-F26EE0C1F054}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{DA965731-A802-4A4F-B6D4-92878B71D4A8}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\RunHelloScript.yml = .github\workflows\RunHelloScript.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +30,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA965731-A802-4A4F-B6D4-92878B71D4A8} = {98788285-87E7-4619-8A1C-F26EE0C1F054}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68BDD204-BCAD-4BF3-8BE4-3ECE8DFD1EF9}
